@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="XYNetSocket">
+</Property><Property Name="Archivo de la solución" Value="C:\Users\luisjavierjn\Documents\Visual Studio 2008\Projects\Test\XYNetSocket\XYNetSocket.sln">
+</Property><Property Name="Date" Value="Sunday, August 04, 2013">
+</Property><Property Name="Time" Value="17:33 PM">
+</Property></Properties><Event ErrorLevel="0" Project="XYNetSocket" Source="XYNetSocket.csproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="XYNetSocket" Source="XYNetSocket.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="XYNetSocketTest" Source="..\XYNetSocketTest\XYNetSocketTest.csproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="XYNetSocketTest" Source="..\XYNetSocketTest\XYNetSocketTest.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="XYThreadPool" Source="..\XYThreadPool\XYThreadPool.vbproj" Description="Proyecto convertido correctamente">
+</Event><Event ErrorLevel="3" Project="XYThreadPool" Source="..\XYThreadPool\XYThreadPool.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="XYNetSocket.sln" Description="La solución se convirtió correctamente">
+</Event><Event ErrorLevel="3" Project="" Source="XYNetSocket.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="XYNetSocket" Source="XYNetSocket.csproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event><Event ErrorLevel="0" Project="XYNetSocketTest" Source="..\XYNetSocketTest\XYNetSocketTest.csproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event><Event ErrorLevel="0" Project="XYThreadPool" Source="..\XYThreadPool\XYThreadPool.vbproj" Description="Examen completo: no es necesario actualizar los archivos de proyecto.">
+</Event></UpgradeLog>

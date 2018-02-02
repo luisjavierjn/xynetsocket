@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XYNetSocket", "XYNetSocket.csproj", "{4D506F34-9294-44EC-BD3D-602FEAA45F43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XYNetSocketTest", "..\XYNetSocketTest\XYNetSocketTest.csproj", "{DECDF853-1603-4AA2-9F62-7EC77840E4E6}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "XYThreadPool", "..\XYThreadPool\XYThreadPool.vbproj", "{9C853B24-7A3B-409C-8F1B-2CF539A98FC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D506F34-9294-44EC-BD3D-602FEAA45F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D506F34-9294-44EC-BD3D-602FEAA45F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D506F34-9294-44EC-BD3D-602FEAA45F43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D506F34-9294-44EC-BD3D-602FEAA45F43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DECDF853-1603-4AA2-9F62-7EC77840E4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DECDF853-1603-4AA2-9F62-7EC77840E4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DECDF853-1603-4AA2-9F62-7EC77840E4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DECDF853-1603-4AA2-9F62-7EC77840E4E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C853B24-7A3B-409C-8F1B-2CF539A98FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C853B24-7A3B-409C-8F1B-2CF539A98FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C853B24-7A3B-409C-8F1B-2CF539A98FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C853B24-7A3B-409C-8F1B-2CF539A98FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

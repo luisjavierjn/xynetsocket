@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "XYNetComClient", "XYNetComClient.vcproj", "{C6B9BBE9-C091-4645-AA84-D36CD87A25C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Unicode Debug|Win32 = Unicode Debug|Win32
+		Unicode Release|Win32 = Unicode Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6B9BBE9-C091-4645-AA84-D36CD87A25C4}.Unicode Debug|Win32.ActiveCfg = Unicode Debug|Win32
+		{C6B9BBE9-C091-4645-AA84-D36CD87A25C4}.Unicode Debug|Win32.Build.0 = Unicode Debug|Win32
+		{C6B9BBE9-C091-4645-AA84-D36CD87A25C4}.Unicode Release|Win32.ActiveCfg = Unicode Release|Win32
+		{C6B9BBE9-C091-4645-AA84-D36CD87A25C4}.Unicode Release|Win32.Build.0 = Unicode Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

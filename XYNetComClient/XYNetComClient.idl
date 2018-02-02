@@ -1,0 +1,49 @@
+// XYNetComClient.idl : IDL source for XYNetComClient.dll
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (XYNetComClient.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+	[
+		object,
+		uuid(B1F4A34C-524B-4FD0-B8FE-7A793EB307B0),
+		dual,
+		helpstring("IClientObj Interface"),
+		pointer_default(unique)
+	]
+	interface IClientObj : IDispatch
+	{
+		[id(1), helpstring("method Connect")] HRESULT Connect([in] BSTR sRemoteAddress, [in] long nRemotePort, [out, retval] BOOL* pOutput);
+		[id(2), helpstring("method Reset")] HRESULT Reset();
+		[id(3), helpstring("method SendBinaryData")] HRESULT SendBinaryData([in] BYTE* pData, [in] long nSize, [out, retval] BOOL* pOutput);
+		[id(4), helpstring("method SendStringData")] HRESULT SendStringData([in] BSTR sData, [out, retval] BOOL* pOutput);
+		[id(5), helpstring("method ReceiveData")] HRESULT ReceiveData([out] long* pSize, [out] BOOL* pIsBinary, [out, retval] BOOL* pOutput);
+		[id(6), helpstring("method GetLastError")] HRESULT GetLastError([out, retval] BSTR* pOutput);
+		[id(7), helpstring("method GetStringData")] HRESULT GetStringData([out, retval] BSTR* pOutput);
+		[id(8), helpstring("method GetBinaryData")] HRESULT GetBinaryData([out] long* pSize, [out, retval] long* pData);
+		[id(9), helpstring("method GetLastErrorCode")] HRESULT GetLastErrorCode([out, retval] long* pOutput);
+		[id(10), helpstring("method SetReadTimeout")] HRESULT SetReadTimeout([in] long nReadTimeout);
+		[id(11), helpstring("method SetMaxDataSize")] HRESULT SetMaxDataSize([in] long nMaxDataSize);
+	};
+
+[
+	uuid(8506F936-0871-4A31-AEB0-735B8889B5CB),
+	version(1.0),
+	helpstring("XYNetComClient 1.0 Type Library")
+]
+library XYNETCOMCLIENTLib
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	[
+		uuid(78EDFBDF-196A-4158-A091-01E068B77F58),
+		helpstring("ClientObj Class")
+	]
+	coclass ClientObj
+	{
+		[default] interface IClientObj;
+	};
+};

@@ -1,0 +1,26 @@
+HKCR
+{
+	XYNetComClient.1 = s 'ClientObj Class'
+	{
+		CLSID = s '{78EDFBDF-196A-4158-A091-01E068B77F58}'
+	}
+	XYNetComClient = s 'ClientObj Class'
+	{
+		CLSID = s '{78EDFBDF-196A-4158-A091-01E068B77F58}'
+		CurVer = s 'XYNetComClient.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {78EDFBDF-196A-4158-A091-01E068B77F58} = s 'ClientObj Class'
+		{
+			ProgID = s 'XYNetComClient.1'
+			VersionIndependentProgID = s 'XYNetComClient'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{8506F936-0871-4A31-AEB0-735B8889B5CB}'
+		}
+	}
+}
